@@ -1,0 +1,69 @@
+
+section{
+    display: block;
+    height: auto;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+.welcome-text h1{
+    color: #00193F;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.welcome-text p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-details{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+input{
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: 2px solid #00193F;
+    border-radius: 60px;
+    font: inherit;
+    outline: none;
+}
+
+.forgot-password, .sign-up{
+    text-align: right;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #003688;
+}
+
+.login-button{
+    margin-bottom: 2.5rem;
+}
+
+.login-button button{
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 60px;
+    font: inherit;
+    color: #ffffff;
+    background-color: #003688;
+    width: 100%;
+}
+
+.sign-up{
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+}
+
+.logo img{
+    width: 10%;
+}
