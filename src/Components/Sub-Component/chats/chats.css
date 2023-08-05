@@ -26,4 +26,6 @@
 
 .unread{
     padding: 2px;
+    font-size: 0.8rem;
+    color: blue;
 }
