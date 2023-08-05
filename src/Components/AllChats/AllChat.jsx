@@ -10,6 +10,7 @@ function AllChat(){
             <Header />
             <Chats />
             <Chats />
+           
              
             <Navbar />
         </>

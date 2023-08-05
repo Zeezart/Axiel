@@ -1,9 +1,17 @@
 .navbar{
-    background-color: blue;
-    padding: 1rem;
+    background-color: #00193F;
+    padding: 2rem 1rem;
     width: 100%;
     display: flex;
     position: fixed;
     bottom: 0;
-    justify-content: space-between;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px 50px 0 0;
+}
+
+.nav-icon{
+    font-size: 1.7rem;
+    color: #95A1B4;
 }
