@@ -4,8 +4,7 @@ import Logo from '../Sub-Component/logo/logo'
 import Axiel from '/src/images/logo.svg'
 function SignIn(){
     return(
-        <>
-        <section>
+        <div className='sign-up'>
             
             <div className='welcome-text'>
                 <h1>Join Axiel Now</h1>
@@ -28,8 +27,7 @@ function SignIn(){
                 <Axiel /> */}
                 <img src='src/images/logo.svg' />
             </div>
-        </section>
-        </>
+        </div>
     )
 }
 

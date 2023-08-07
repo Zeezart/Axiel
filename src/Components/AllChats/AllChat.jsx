@@ -6,14 +6,12 @@ import Navbar from '../Navbar/Navbar'
 
 function AllChat(){
     return(
-        <>
+        <div className='allChat'>
             <Header />
             <Chats />
             <Chats />
-           
-             
             <Navbar />
-        </>
+        </div>
     )
 }
 

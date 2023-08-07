@@ -1,12 +1,11 @@
 
-section{
+.sign-in{
     display: block;
     height: auto;
     text-align: center;
     z-index: 1;
+    padding: 2rem 1rem 0 1rem ;
 }
-
-
 
 .welcome-text h1{
     color: #00193F;

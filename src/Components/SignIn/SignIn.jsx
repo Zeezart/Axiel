@@ -5,7 +5,7 @@ import Axiel from '/src/images/logo.svg'
 function SignIn(){
     return(
         <>
-        <section>
+        <div className='sign-in'>
             
             <div className='welcome-text'>
                 <h1>Welcome Back!</h1>
@@ -28,7 +28,7 @@ function SignIn(){
                 <Axiel /> */}
                 <img src='src/images/logo.svg' />
             </div>
-        </section>
+        </div>
         </>
     )
 }

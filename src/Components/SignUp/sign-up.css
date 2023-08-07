@@ -1,8 +1,9 @@
-section{
+.sign-up{
     display: block;
     height: auto;
     text-align: center;
     z-index: 1;
+    padding: 2rem 1rem 0 1rem ;
 }
 
 .welcome-text h1{
