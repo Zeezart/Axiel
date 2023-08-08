@@ -1,5 +1,6 @@
 import React from 'react'
 import './sign-up.css'
+import {Link} from 'react-router-dom'
 import Logo from '../Sub-Component/logo/logo'
 import Axiel from '/src/images/logo.svg'
 function SignIn(){
@@ -18,8 +19,8 @@ function SignIn(){
             </div>
 
             <div className='signup-button'>
-                <button>Create Account</button>
-                <p className='login'>Already have an account? Login</p>
+                <Link to='allchat'><button>Create Account</button></Link>
+                <Link to='/'><p className='login'>Already have an account? Login</p></Link>
             </div>
 
             <div className='logo'>

@@ -1,10 +1,11 @@
 import React from 'react'
 import './sign-in.css'
+import {Link} from 'react-router-dom'
 import Logo from '../Sub-Component/logo/logo'
 import Axiel from '/src/images/logo.svg'
 function SignIn(){
     return(
-        <>
+    
         <div className='sign-in'>
             
             <div className='welcome-text'>
@@ -19,8 +20,8 @@ function SignIn(){
             </div>
 
             <div className='login-button'>
-                <button>Login</button>
-                <p className='sign-up'>Don't have an account? Sign Up</p>
+                <Link to='allchat'><button>Login</button></Link>
+                <Link to='signup'><p className='sign-up'>Don't have an account? Sign Up</p></Link>
             </div>
 
             <div className='logo'>
@@ -29,7 +30,7 @@ function SignIn(){
                 <img src='src/images/logo.svg' />
             </div>
         </div>
-        </>
+    
     )
 }
 

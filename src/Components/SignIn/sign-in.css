@@ -1,7 +1,7 @@
 
 .sign-in{
     display: block;
-    height: auto;
+    height: 100vh;
     text-align: center;
     z-index: 1;
     padding: 2rem 1rem 0 1rem ;
@@ -56,7 +56,10 @@ input{
 
 .sign-up{
     text-align: center;
+    text-decoration: none;
 }
+
+
 
 .logo{
     display: flex;

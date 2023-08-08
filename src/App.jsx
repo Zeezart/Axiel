@@ -1,4 +1,5 @@
 import './App.css'
+import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import AllChat from './Components/AllChats/AllChat'
 import ChatBox from './Components/ChatBox/chatbox'
 import LoadingPage from './Components/LoadingPage/loadingPage'
@@ -8,10 +9,18 @@ import SignUp from './Components/SignUp/SignUp'
 function App() {
 
   return (
-    <section>
-      {/* <ChatBox /> */}
-      <SignUp />
-    </section>
+    <div className='app'>
+      <Router>
+        <Routes>
+          <Route path='/' exact element={<SignIn/>} />
+          <Route path='/signup' element={<SignUp/>} />
+          <Route path='/chatbox' element={<ChatBox/>} />
+          <Route path='/allchat' element={<AllChat/>} />
+        </Routes>
+          
+      </Router>
+     
+    </div>
   )
 }
 
